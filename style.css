@@ -1,0 +1,12 @@
+div {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+#art {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 0%;
+}
