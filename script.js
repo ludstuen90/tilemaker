@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
   console.log("sourced");
@@ -57,7 +58,7 @@ $("#art").click( function () {
 
       }//End of k loop
 
-        $("#art").append("<div style='background-color: #" + fullColor +"'></div>");
+        $("#art").append("<div style='background-image: url(tile.jpg)'></div>");
         console.log("Append full color: #" + fullColor + " and make div");
 
     }//End of j for loop
@@ -65,3 +66,7 @@ $("#art").click( function () {
 });
 
 });
+
+
+
+//$("#art").append("<div style='background-color:black</div>");

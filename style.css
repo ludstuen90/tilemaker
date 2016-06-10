@@ -10,3 +10,8 @@ div {
   overflow: hidden;
   line-height: 0%;
 }
+
+
+div {
+  background-size:cover;
+}
